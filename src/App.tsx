@@ -1,41 +1,22 @@
-import { Link } from "react-router-dom";
-import { CustomRequest, Logo } from "./components";
-import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { Logo } from "./components";
 
 function App() {
-  const [flow, setFlow] = useState<string>("");
-
-  if (flow === "designer") {
-    return (
-      <div className="min-h-screen flex flex-col items-center justify-center bg-white p-4">
-        <Logo />
-        <div className="mt-10 text-black text-xl sm:text-2xl font-semibold">
-          Designer flow coming soon!
-        </div>
-        <button
-          className="mt-6 bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition"
-          onClick={() => setFlow("")}
-        >
-          Back
-        </button>
-      </div>
-    );
-  }
-
-  if (flow === "customer") {
-    return (
-      <div className="min-h-screen flex flex-col items-center justify-start bg-white p-4">
-        <Logo />
-        <CustomRequest />
-        <button
-          className="mt-6 bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition"
-          onClick={() => setFlow("")}
-        >
-          Back
-        </button>
-      </div>
-    );
-  }
+  const navigate = useNavigate();
+  // if (flow === "customer") {
+  //   return (
+  //     <div className="min-h-screen flex flex-col items-center justify-start bg-white p-4">
+  //       <Logo />
+  //       <CustomRequest />
+  //       <button
+  //         className="mt-6 bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition"
+  //         onClick={() => setFlow("")}
+  //       >
+  //         Back
+  //       </button>
+  //     </div>
+  //   );
+  // }
 
   return (
     <main className="flex flex-col items-center justify-center min-h-screen  bg-primary px-4 py-8">
@@ -64,23 +45,13 @@ function App() {
             hover:-rotate-3 hover:scale-105
             cursor-pointer
           "
-          onClick={() => setFlow("designer")}
+          onClick={() => navigate("/login")}
         >
-          {/* <Link to={"/login"}>
-            <button
-              className="
-              px-6 sm:px-7 py-4 bg-secondary text-accent
-              text-2xl sm:text-3xl font-bold font-cursive cursor-pointer
-            "
-              onClick={() => console.log("I am a designer")}
-            >
-              I am a designer
-            </button>
-          </Link> */}
           <button
             className="
               px-6 sm:px-7 py-4 bg-secondary text-accent
               text-2xl sm:text-3xl font-bold font-cursive
+              cursor-pointer
             "
           >
             I am a designer
@@ -98,19 +69,8 @@ function App() {
             hover:-rotate-3 hover:scale-105
             cursor-pointer
           "
-          onClick={() => setFlow("customer")}
+          onClick={() => navigate("/waitlist")}
         >
-          {/* <Link to={"/waitlist"}>
-            <button
-              className="
-              px-6 sm:px-7 py-4 bg-accent text-secondary
-              text-2xl sm:text-3xl font-bold font-cursive cursor-pointer
-            "
-              onClick={() => console.log("I need a designer")}
-            >
-              I need a designer
-            </button>
-          </Link> */}
           <button
             className="
               px-6 sm:px-7 py-4 bg-accent text-secondary
