@@ -2,6 +2,7 @@ export default function Logo() {
   return (
     <div
       className="
+        animate-logo-bounce
         flex items-baseline cursor-pointer
         text-accent tracking-[-0.02em]
         text-[2rem] sm:text-[2.3rem] md:text-[2.5rem]
