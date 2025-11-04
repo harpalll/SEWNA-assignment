@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Pacifico:wght@400&display=swap" rel="stylesheet"><link rel="icon" href="/favicon.png" type="image/png"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Sewna - The premier platform connecting you with talented designers who bring your dream outfits to life. Join Sewna for custom clothing, bespoke fashion, and personalized design services. Create your perfect wardrobe with Sewna today!"/><meta name="keywords" content="sewna, sewna fashion, sewna platform, sewna custom clothing, sewna designers, joinsewna, join sewna, sewna app, sewna website, sewna marketplace, custom outfits, fashion designers, bespoke clothing, dream outfits, custom design, personalized fashion, custom tailoring, designer marketplace, fashion platform, made to order clothing, custom dresses, bespoke suits, personalized wardrobe, fashion design service, online tailor, custom fashion, designer clothes"/><meta property="og:type" content="website"/><meta property="og:url" content="/"/><meta property="og:site_name" content="Sewna"/><meta property="og:title" content="Sewna - Connect with Designers for Your Dream Outfits | Custom Fashion Platform"/><meta property="og:description" content="Sewna - The premier platform connecting you with talented designers who bring your dream outfits to life. Custom clothing, bespoke fashion, and personalized design services."/><meta property="og:image" content="/logo.jpg"/><meta property="og:image:alt" content="Sewna - Custom Fashion Design Platform"/><meta property="twitter:card" content="summary_large_image"/><meta property="twitter:url" content="/"/><meta property="twitter:title" content="Sewna - Custom Outfit Design by Professional Designers | Fashion Platform"/><meta property="twitter:description" content="Sewna - The premier platform connecting you with talented designers who bring your dream outfits to life. Custom clothing and bespoke fashion services."/><meta property="twitter:image" content="/logo.jpg"/><meta property="twitter:image:alt" content="Sewna - Custom Fashion Design Platform"/><link rel="apple-touch-icon" href="/favicon.png"/><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link rel="manifest" href="/manifest.json"/><title>Sewna - Custom Fashion Design Platform | Connect with Designers for Dream Outfits</title><meta name="application-name" content="Sewna"/><meta name="apple-mobile-web-app-title" content="Sewna"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="mobile-web-app-capable" content="yes"/><meta name="format-detection" content="telephone=no"/><meta name="geo.region" content="US"/><meta name="geo.placename" content="United States"/><meta name="rating" content="general"/><meta name="referrer" content="no-referrer-when-downgrade"/><meta name="author" content="Sewna"/><meta name="publisher" content="Sewna"/><meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/><meta name="googlebot" content="index, follow"/><meta name="bingbot" content="index, follow"/><link rel="canonical" href="https://www.joinsewna.com/"/><script type="application/ld+json">{
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Sewna",
+      "alternateName": ["Join Sewna", "Sewna Fashion", "Sewna Platform", "Sewna Custom Clothing"],
+      "url": "https://www.joinsewna.com",
+      "description": "Sewna - The premier platform connecting you with talented designers who bring your dream outfits to life. Custom clothing, bespoke fashion, and personalized design services.",
+      "keywords": "sewna, sewna fashion, sewna platform, custom clothing, fashion designers, bespoke fashion",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.joinsewna.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }</script><script type="application/ld+json">{
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Sewna",
+      "alternateName": ["JoinSewna", "Sewna Fashion", "Sewna Platform", "Sewna Custom Clothing"],
+      "url": "https://www.joinsewna.com",
+      "logo": "https://www.joinsewna.com/logo.jpg",
+      "description": "Sewna - The premier platform connecting you with designers who bring your dream outfits to life",
+      "keywords": "sewna, sewna fashion, sewna platform, custom clothing, fashion designers",
+      "sameAs": [
+        "https://www.facebook.com/joinsewna",
+        "https://www.instagram.com/joinsewna",
+        "https://twitter.com/joinsewna"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "email": "support@joinsewna.com"
+      },
+      "service": {
+        "@type": "Service",
+        "name": "Sewna Custom Fashion Design",
+        "description": "Sewna connects you with professional designers for custom outfits and bespoke clothing",
+        "provider": {
+          "@type": "Organization",
+          "name": "Sewna"
+        },
+        "serviceType": "Custom Clothing Design",
+        "areaServed": "Worldwide"
+      }
+    }</script><script type="application/ld+json">{
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Sewna Custom Fashion Design Services",
+      "description": "Sewna connects you with talented designers to create your dream custom outfits. Professional bespoke fashion and personalized design services through the Sewna platform.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Sewna"
+      },
+      "offers": {
+        "@type": "AggregateOffer",
+        "availability": "https://schema.org/OnlineOnly",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "500"
+      }
+    }</script><script defer="defer" src="/static/js/main.a9339109.js"></script><link href="/static/css/main.76ccdce6.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>

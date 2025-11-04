@@ -37,10 +37,12 @@ const Portfolio = () => {
   return (
     <div className="relative">
       {/* Fixed Header */}
-      <header className="flex h-[10vh] justify-between items-center fixed top-0 left-5 right-0 z-20 px-4 sm:px-6 md:px-8">
+      <header className="flex h-[10vh] justify-between items-center fixed top-0 left-5 right-0 z-20 px-4 sm:px-6  backdrop-blur-lg w-full">
         <Link to={"/"}>
           <Logo />
         </Link>
+        <h1 className="text-2xl font-bold text-gray-900">My Portfolio</h1>
+
         <Link to={"/designUpload"}>
           <button className="inline-flex items-center justify-center gap-2 font-medium rounded-full bg-accent text-primary hover:scale-105 transform transition-all duration-300 px-6 py-3 text-lg shadow-md hover:shadow-xl">
             Upload New Design
@@ -50,10 +52,6 @@ const Portfolio = () => {
 
       {/* Main content */}
       <main className="p-6 pt-[12vh] min-h-screen bg-gray-50">
-        <div className="flex flex-col md:flex-row justify-between items-center mb-8 gap-4">
-          <h1 className="text-3xl font-bold text-gray-900">My Portfolio</h1>
-        </div>
-
         {/* Masonry grid */}
         <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-6">
           {designs.map((d) => (

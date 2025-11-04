@@ -1,0 +1,33 @@
+{
+  "short_name": "Sewna",
+  "name": "Join Sewna - Custom Fashion Design Platform",
+  "description": "Connect with talented designers who can bring your dream outfits to life. Custom clothing, bespoke fashion, and personalized design services.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo.jpg",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo.jpg",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "categories": ["fashion", "lifestyle", "shopping"],
+  "lang": "en-US",
+  "dir": "ltr"
+}

@@ -99,7 +99,7 @@ const Login = () => {
           </Link>
         </div>
       </div>
-      <div className="mx-auto flex w-full max-w-[600px] flex-col items-stretch gap-4 rounded-lg bg-card p-8 shadow-lg lg:min-w-[320px] 2xl:min-w-[360px] border border-accent">
+      <div className="mx-auto flex w-full max-w-[500px] flex-col items-stretch gap-4 rounded-lg bg-card p-8 shadow-lg lg:min-w-[320px] 2xl:min-w-[360px] border border-accent">
         <h1 className="text-3xl font-bold font-poppins text-accent">Sign in</h1>
         <div className="flex flex-col items-center gap-8">
           <form
