@@ -54,7 +54,7 @@ const Waitlist = () => {
 
       <div className="flex-1 flex items-center justify-center font-poppins min-h-screen">
         <div className="max-w-2xl w-full mx-auto text-center transition-all duration-700">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 mb-8 leading-tight whitespace-nowrap">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-5xl text-gray-900 mb-8 leading-tight whitespace-nowrap">
             <div>
               You want the{" "}
               <span className="text-accent font-cursive font-bold">best</span>,
@@ -76,7 +76,7 @@ const Waitlist = () => {
               <input
                 placeholder="Enter your name"
                 // className="w-full px-4 py-3 border-2 focus:outline-none text-base transition-all duration-200 border-gray-300 focus:border-black"
-                className="flex h-15 w-full rounded-full bg-gray-100 p-8 text-base transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-xl mb-4"
+                className="flex h-12 w-full rounded-full bg-gray-100 p-8 text-base transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-xl mb-4"
                 type="text"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
@@ -86,7 +86,7 @@ const Waitlist = () => {
               <input
                 placeholder="Enter your email"
                 // className="w-full px-4 py-3 border-2 focus:outline-none text-base transition-all duration-200 border-gray-300 focus:border-black"
-                className="flex h-15 w-full rounded-full bg-gray-100 p-8 text-base transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-xl"
+                className="flex h-12 w-full rounded-full bg-gray-100 p-8 text-base transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-xl"
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -98,7 +98,7 @@ const Waitlist = () => {
               type="submit"
               disabled={loading || !email || !name}
               // className="w-full px-8 py-3 font-medium text-base transition-all duration-200 bg-black hover:bg-gray-800 text-white disabled:opacity-50 disabled:cursor-not-allowed"
-              className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium  focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 focus-visible:ring-2 focus-visible:ring-ring rounded-full bg-secondary text-primary hover:scale-110 h-10 px-8 py-6 w-full text-xl ease-in transition-all"
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium  focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 focus-visible:ring-2 focus-visible:ring-ring rounded-full bg-secondary text-primary hover:scale-110 h-8 px-8 py-6 w-full text-lg ease-in transition-all"
             >
               {loading ? "Sending..." : "Notify me when ready"}
             </button>
